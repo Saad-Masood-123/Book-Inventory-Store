@@ -1,0 +1,83 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+.table {
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.table thead th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table tbody td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e2e6ea;
+}
+
+.btn {
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-success:hover {
+    background-color: #1e7e34;
+}
+
+.btn-warning:hover {
+    background-color: #ffc107;
+}
+
+.btn-danger:hover {
+    background-color: #bd2130;
+}
+
+/* Modals */
+.modal-content {
+    border-radius: 20px;
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Forms */
+.form-control {
+    border-radius: 15px;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* Toasts */
+.toast {
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
